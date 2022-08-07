@@ -1,0 +1,21 @@
+{
+  "name": "mern-tutorial",
+  "version": "1.0.0",
+  "description": "goalSetter",
+  "main": "server.js",
+  "scripts": {
+    "start" : "node backend/server.js",
+    "server" : "node backend/server.js"
+  },
+  "author": "Gray",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
