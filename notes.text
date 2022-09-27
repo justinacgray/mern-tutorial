@@ -1,0 +1,17 @@
+middleware are functions hat execute during the request response cycles when you make a request
+
+
+initial testing of routes 
+
+router.get("/", (req, res) => {
+    res.status(200).json({message : "Get Routes"})
+})
+router.post("/", (req, res) => {
+    res.status(200).json({message : "Create Routes"})
+})
+router.put("/:id", (req, res) => {
+    res.status(200).json({message : `Update ${req.params.id} Routes`})
+})
+router.delete("/:id", (req, res) => {
+    res.status(200).json({message : `Delete ${req.params.id} Routes`})
+})
