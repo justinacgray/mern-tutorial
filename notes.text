@@ -15,3 +15,7 @@ router.put("/:id", (req, res) => {
 router.delete("/:id", (req, res) => {
     res.status(200).json({message : `Delete ${req.params.id} Routes`})
 })
+
+
+slow internet speen causing me not to push properly- hurricane today 9/30/22
+https://stackoverflow.com/questions/65882660/pushing-to-github-issue-http-2-stream-0-was-not-closed-cleanly-cancel-err-8
